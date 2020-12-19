@@ -1,22 +1,22 @@
-.Text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-#text {
-    stroke: transparent;
-    stroke-width: 0.3px;
+.text {
+  stroke: transparent;
+  stroke-width: 0.3px;
 }
 
-#job-text {
-    animation: fill 1.5s ease forwards 3.5s;
+.job {
+  animation: fill 1.5s ease forwards 3.5s;
 }
 
-#name-text {
-    animation: fill 1.5s ease forwards 4s;
+.name {
+  animation: fill 1.5s ease forwards 4s;
 }
 
 /*
@@ -144,11 +144,11 @@ Idea on hold - have to corect svg paths!!
 }
 */
 
-@keyframes fill{
-    from{
-        fill: transparent;
-    }
-    to{
-        fill: #c2c0c0;
-    }
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #c2c0c0;
+  }
 }

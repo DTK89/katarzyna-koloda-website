@@ -1,0 +1,122 @@
+.logo {
+  stroke: #c2c0c0;
+  stroke-width: 0.3px;
+  animation: fill 3s ease forwards 3s;
+}
+
+.logo path:nth-child(1) {
+  stroke-dasharray: 29.5px;
+  stroke-dashoffset: 29.5px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(2) {
+  stroke-dasharray: 49px;
+  stroke-dashoffset: 49px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(3) {
+  stroke-dasharray: 9.75px;
+  stroke-dashoffset: 9.75px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(4) {
+  stroke-dasharray: 8.6px;
+  stroke-dashoffset: 8.6px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(5) {
+  stroke-dasharray: 172.6px;
+  stroke-dashoffset: 172.6px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(6) {
+  stroke-dasharray: 53.2px;
+  stroke-dashoffset: 53.2px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(7) {
+  stroke-dasharray: 58.2px;
+  stroke-dashoffset: 58.2px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(8) {
+  stroke-dasharray: 108.1px;
+  stroke-dashoffset: 108.1px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(9) {
+  stroke-dasharray: 64.53px;
+  stroke-dashoffset: 64.53px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(10) {
+  stroke-dasharray: 109.4px;
+  stroke-dashoffset: 109.4px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(11) {
+  stroke-dasharray: 5.1px;
+  stroke-dashoffset: 5.1px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(12) {
+  stroke-dasharray: 4.9px;
+  stroke-dashoffset: 4.9px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(13) {
+  stroke-dasharray: 5.6px;
+  stroke-dashoffset: 5.6px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(14) {
+  stroke-dasharray: 24.1px;
+  stroke-dashoffset: 24.1px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(15) {
+  stroke-dasharray: 326px;
+  stroke-dashoffset: 326px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(16) {
+  stroke-dasharray: 130.8px;
+  stroke-dashoffset: 130.8px;
+  animation: line-anim 2s ease forwards;
+}
+
+.logo path:nth-child(17) {
+  stroke-dasharray: 68.2px;
+  stroke-dashoffset: 68.2px;
+  animation: line-anim 2s ease forwards;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #c2c0c0;
+  }
+}
