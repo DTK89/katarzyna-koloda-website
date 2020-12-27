@@ -1,5 +1,5 @@
 .logo {
-  stroke: #c2c0c0;
+  stroke: #3a83bb;
   stroke-width: 0.3px;
   animation: fill 3s ease forwards 3s;
 }
@@ -117,6 +117,6 @@
     fill: transparent;
   }
   to {
-    fill: #c2c0c0;
+    fill: #3a83bb;
   }
 }

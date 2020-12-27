@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+
+@import '../../theme/_theme.sass';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --trinary: #{$trinary};
+}
+
+html {
+  font-size: 62.5%;
+  border: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--trinary);
+}

@@ -1,0 +1,14 @@
+.button {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  margin: 5px auto;
+  border: none;
+  border-radius: 50%;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+  cursor: pointer;
+  box-shadow: 0 5px 20px -5px rgba(#818181, 0.9);
+}

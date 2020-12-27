@@ -1,0 +1,25 @@
+.primary {
+  display: block;
+  max-width: 200px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  color: var(--trinary);
+  cursor: pointer;
+}
+
+.secondary {
+  @extend .primary;
+
+  width: 120px;
+  background-color: var(--trinary);
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.8em;
+  box-shadow: 0 5px 20px -5px rgba(#818181, 0.9);
+}
