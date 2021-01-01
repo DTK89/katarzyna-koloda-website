@@ -9,9 +9,9 @@ const IconButton = ({ href, icon }) => (
       <a
         href={href}
         target="_blank"
+        rel="noopener noreferrer"
         className={styles.button}
         style={{ backgroundImage: `url(${icon})` }}
-        rel="noopener noreferrer"
       >
         {}
       </a>
@@ -24,11 +24,12 @@ const IconButton = ({ href, icon }) => (
 );
 
 IconButton.propTypes = {
-  href: PropTypes.string.isRequired,
+  href: PropTypes.string,
   icon: PropTypes.string,
 };
 
 IconButton.defaultProps = {
+  href: 'www.google.com',
   icon: envelopeIcon,
 };
 
