@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Button.module.scss';
 
-const Button = ({ children, href, buttonType }) => {
+const Button = ({ children, to, buttonType }) => {
   const buttonClass = buttonType ? styles.primary : styles.secondary;
 
   return (
     <>
-      {href ? (
-        <a href={href} target="_blank" className={buttonClass} rel="noopener noreferrer">
+      {to ? (
+        <a href={to} target="_blank" className={buttonClass} rel="noopener noreferrer">
           {children}
         </a>
       ) : (
@@ -22,7 +22,7 @@ const Button = ({ children, href, buttonType }) => {
 
 Button.propTypes = {
   children: PropTypes.string,
-  href: PropTypes.string.isRequired,
+  to: PropTypes.string.isRequired,
   buttonType: PropTypes.oneOf(['primary', 'secondary']),
 };
 

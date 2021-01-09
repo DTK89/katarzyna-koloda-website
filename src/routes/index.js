@@ -8,13 +8,13 @@ import { ReactComponent as Facebook } from 'assets/facebook.svg';
 export const links = [
   {
     id: 1,
-    url: '/zabiegi',
-    text: 'Zabiegi',
+    url: '/',
+    text: 'Home',
   },
   {
     id: 2,
-    url: '/cennik',
-    text: 'Cennik',
+    url: '/zabiegi',
+    text: 'Zabiegi',
   },
   {
     id: 3,

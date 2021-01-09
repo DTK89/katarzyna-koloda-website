@@ -7,9 +7,9 @@
   font-weight: 600;
   text-decoration: none;
   padding: 10px 20px;
-  background-color: var(--primary);
-  border: 2px solid var(--primary);
-  color: var(--trinary);
+  background-color: var(--clr-primary);
+  border: 2px solid var(--clr-primary);
+  color: var(--clr-trinary);
   cursor: pointer;
 }
 
@@ -17,8 +17,8 @@
   @extend .primary;
 
   width: 120px;
-  background-color: var(--trinary);
-  color: var(--primary);
+  background-color: var(--clr-trinary);
+  color: var(--clr-primary);
   font-weight: 600;
   font-size: 0.8em;
   box-shadow: 0 5px 20px -5px rgba(#818181, 0.9);

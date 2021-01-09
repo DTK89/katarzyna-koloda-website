@@ -46,22 +46,20 @@ const Navbar = () => {
             {links.map((link) => {
               const { id, url, text } = link;
               return (
-                <>
-                  <li key={id}>
-                    <NavLink
-                      exact
-                      to={url}
-                      className={styles.linksItem}
-                      onClick={toggleLinks}
-                      activeClassName={styles.linksItemActive}
-                    >
-                      {text}
-                    </NavLink>
-                  </li>
-                </>
+                <li key={id}>
+                  <NavLink
+                    exact
+                    to={url}
+                    className={styles.linksItem}
+                    onClick={toggleLinks}
+                    activeClassName={styles.linksItemActive}
+                  >
+                    {text}
+                  </NavLink>
+                </li>
               );
             })}
-            <li key={6} className={styles.linksSocial}>
+            <li className={styles.linksSocial}>
               {social.map((socialIcon) => {
                 const { id, url, icon } = socialIcon;
                 return (
