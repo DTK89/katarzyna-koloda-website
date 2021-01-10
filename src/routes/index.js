@@ -16,13 +16,9 @@ export const links = [
     url: '/zabiegi',
     text: 'Zabiegi',
   },
+
   {
     id: 3,
-    url: '/urządzenia',
-    text: 'Urządzenia',
-  },
-  {
-    id: 4,
     url: '/about',
     text: 'O Mnie',
   },

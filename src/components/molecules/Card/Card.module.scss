@@ -1,0 +1,49 @@
+.wrapper {
+  min-height: 400px;
+  max-height: 500px;
+  box-shadow: 0 10px 30px -10px var(--clr-primary-1);
+  border-style: groove;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: var(--clr-secondary);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  &Image {
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  &Inner {
+    // position: relative;
+    padding: 15px 0;
+    background-color: var(--clr-trinary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 13px;
+      padding: 0 17px;
+    }
+
+    Button {
+      font-size: 1.5rem;
+      margin-top: auto;
+      background-color: var(--clr-secondary);
+      border-color: var(--clr-secondary);
+    }
+  }
+}

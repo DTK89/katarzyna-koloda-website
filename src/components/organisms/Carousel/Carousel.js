@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
-import Slide from 'components/atoms/Slide/Slide';
+import Slide from 'components/molecules/Slide/Slide';
 import styles from './Carousel.module.scss';
 import slideData from './data';
 

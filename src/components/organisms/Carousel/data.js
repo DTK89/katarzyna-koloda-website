@@ -1,4 +1,5 @@
-import bgPicture from 'assets/Test2.jpg';
+import bgPicture from 'assets/slides/Test.jpg';
+import bgPicture2 from 'assets/slides/Test2.jpg';
 
 const slides = [
   {
@@ -13,7 +14,7 @@ const slides = [
   },
   {
     id: 2,
-    image: bgPicture,
+    image: bgPicture2,
     title: '2Test title2',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
     has been the industrys standard dummy text ever since the 1500s, when an unknown printer
@@ -33,7 +34,7 @@ const slides = [
   },
   {
     id: 4,
-    image: bgPicture,
+    image: bgPicture2,
     title: '4Test title4',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
     has been the industrys standard dummy text ever since the 1500s, when an unknown printer

@@ -1,11 +1,12 @@
 import React from 'react';
-// import Slide from 'components/atoms/Slide/Slide';
-import Carousel from 'components/molecules/Carousel/Carousel';
+import Carousel from 'components/organisms/Carousel/Carousel';
+import Tabs from 'components/organisms/Tabs/Tabs';
 import styles from './MainPage.module.scss';
 
 const MainPage = () => (
   <div className={styles.wrapper}>
     <Carousel />
+    <Tabs />
   </div>
 );
 

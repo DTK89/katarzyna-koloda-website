@@ -1,0 +1,126 @@
+.wrapper {
+  margin: 5rem auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 900px) {
+  .wrapper {
+    width: 95vw;
+  }
+}
+
+.title {
+  margin-bottom: 2.5rem;
+  text-align: center;
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  &Underline {
+    width: 8rem;
+    height: 0.3rem;
+    background: var(--clr-secondary);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25rem;
+  }
+
+  @media screen and (min-width: 900px) {
+    margin-bottom: 3rem;
+
+    &Underline {
+      width: 11rem;
+      height: 0.4rem;
+    }
+  }
+}
+
+.container {
+  width: 85vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+
+  &Buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+
+    &Inactive {
+      background: transparent;
+      border-color: transparent;
+      text-transform: capitalize;
+      font-size: 1.5rem;
+      letter-spacing: var(--spacing);
+      transition: var(--transition);
+      margin: 0.4rem 0.7rem;
+      padding: 0.3rem 0;
+      outline-style: none;
+      // line-height: 1;
+      // outline-color: var(--clr-secondary);
+      cursor: pointer;
+
+      &:hover {
+        color: var(--clr-primary);
+        box-shadow: 0 2px var(--clr-primary);
+      }
+    }
+    &Active {
+      background: transparent;
+      border-color: transparent;
+      text-transform: capitalize;
+      font-size: 1.5rem;
+      letter-spacing: var(--spacing);
+      transition: var(--transition);
+      margin: 0.4rem 0.7rem;
+      padding: 0.3rem 0;
+      outline-style: none;
+      // line-height: 1;
+      // outline-color: var(--clr-trinary);
+      cursor: pointer;
+      color: var(--clr-primary-2);
+      box-shadow: 0 2px var(--clr-primary-2);
+
+      &:hover {
+        color: var(--clr-primary-4);
+        box-shadow: 0 2px var(--clr-primary-4);
+      }
+    }
+  }
+
+  &Grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 30px;
+  }
+
+  @media screen and (min-width: 900px) {
+    width: 90vw;
+
+    &Buttons {
+      flex-direction: row;
+
+      &Inactive {
+        font-size: 1.9rem;
+        margin-bottom: 1rem;
+      }
+
+      &Active {
+        font-size: 1.9rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px var(--clr-secondary);
+      }
+    }
+
+    &Grid {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      grid-gap: 50px;
+    }
+  }
+}
