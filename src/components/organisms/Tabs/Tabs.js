@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Title from 'components/atoms/Title/Title';
 import Card from 'components/molecules/Card/Card';
 import styles from './Tabs.module.scss';
 import cardsData from './data';
@@ -11,10 +12,7 @@ const Tabs = () => {
   return (
     <div className={styles.wrapper}>
       {/* Title */}
-      <div className={styles.title}>
-        <h1>Zabiegi</h1>
-        <div className={styles.titleUnderline}>{}</div>
-      </div>
+      <Title>Zabiegi</Title>
       <div className={styles.container}>
         {/* Button container */}
         <div className={styles.containerButtons}>
