@@ -17,7 +17,16 @@ const DropdownMenu = ({
         const { id, url, text } = link;
         return (
           <li key={id}>
-            <MenuLink to={url} onClick={toggleDropdown} activeclass="active">
+            <MenuLink
+              to={url}
+              smooth
+              duration={500}
+              spy
+              // exact
+              offset={-50} // -100 withowuth sked option
+              onClick={toggleDropdown}
+              activeclass="active"
+            >
               {text}
             </MenuLink>
           </li>

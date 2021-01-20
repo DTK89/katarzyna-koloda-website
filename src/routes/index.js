@@ -8,23 +8,23 @@ import { ReactComponent as Facebook } from 'assets/facebookIcon.svg';
 export const links = [
   {
     id: 1,
-    url: '/zabiegi',
+    url: 'zabiegi',
     text: 'Zabiegi',
   },
   {
     id: 2,
-    url: '/urzadzenia',
+    url: 'urzadzenia',
     text: 'Urządzenia',
   },
 
   {
     id: 3,
-    url: '/about',
+    url: 'about',
     text: 'O Mnie',
   },
   {
     id: 4,
-    url: '/contact',
+    url: 'contact',
     text: 'Kontakt',
   },
 ];
