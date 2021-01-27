@@ -33,11 +33,11 @@ const NavBar = ({ routeLinks, socialLinks, isOpen, toggleDropdown }) => {
               <li key={id}>
                 <NavMenuLink
                   to={url}
-                  smooth
                   duration={500}
                   spy
+                  smooth
                   // exact
-                  offset={-50} // -100 withowuth sked option
+                  offset={-70} // -100 withowuth sked option
                   onClick={toggleDropdown}
                   activeclass="active"
                 >
