@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   align-items: center;
   background-color: var(--clr-primary);
   clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
-  padding: 10rem 0;
+  padding: 5rem 0 10rem 0;
 `;
 
 const AboutContainer = styled.div`
