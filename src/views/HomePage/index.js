@@ -4,6 +4,7 @@ import About from 'components/About';
 import Contact from 'components/Contact';
 
 import styled from 'styled-components';
+import Devices from 'components/Devices';
 
 const PageWrapper = styled.div`
   /* margin-top: 100px; */
@@ -20,7 +21,7 @@ const HomePage = () => (
     <Placeholder secondary scrollId="zabiegi">
       Pricing
     </Placeholder>
-    <Placeholder scrollId="urzadzenia">Devices</Placeholder>
+    <Devices />
     <About />
     <Contact />
   </PageWrapper>
