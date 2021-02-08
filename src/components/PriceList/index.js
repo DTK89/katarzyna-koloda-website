@@ -1,7 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Accordions from './Accordion/Accordions';
+import Accordions from './Accordion/AccordionList';
 import data from './data';
 
 const Wrapper = styled.div`

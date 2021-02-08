@@ -22,6 +22,7 @@ const Accordions = ({ data }) => {
           key={accordion.id}
           accTitle={accordion.accTitle}
           accContent={accordion.accContent}
+          tableOption={accordion.tableOption}
           index={index}
           active={activeAcc}
           setActive={setActiveAcc}
