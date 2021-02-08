@@ -5,6 +5,7 @@ import Contact from 'components/Contact';
 
 import styled from 'styled-components';
 import Devices from 'components/Devices';
+import PriceList from 'components/PriceList';
 
 const PageWrapper = styled.div`
   /* margin-top: 100px; */
@@ -18,9 +19,8 @@ const PageWrapper = styled.div`
 const HomePage = () => (
   <PageWrapper>
     <Placeholder scrollId="home">Slide Carousel</Placeholder>
-    <Placeholder secondary scrollId="zabiegi">
-      Pricing
-    </Placeholder>
+    <PriceList />
+
     <Devices />
     <About />
     <Contact />
