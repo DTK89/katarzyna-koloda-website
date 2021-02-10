@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   background-color: var(--clr-primary);
-  clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
   padding: 5rem 0 10rem 0;
 `;
 
