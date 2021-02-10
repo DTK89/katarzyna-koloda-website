@@ -1,14 +1,15 @@
 import React from 'react';
-import Placeholder from 'components/Placeholder';
+// import Placeholder from 'components/Placeholder';
 import About from 'components/About';
 import Contact from 'components/Contact';
 
 import styled from 'styled-components';
 import Devices from 'components/Devices';
 import PriceList from 'components/PriceList';
+import Slides from 'components/Slides';
 
 const PageWrapper = styled.div`
-  /* margin-top: 100px; */
+  margin-top: 100px;
   width: 100%;
   background: var(--clr-trinary);
   display: flex;
@@ -18,7 +19,7 @@ const PageWrapper = styled.div`
 
 const HomePage = () => (
   <PageWrapper>
-    <Placeholder scrollId="home">Slide Carousel</Placeholder>
+    <Slides />
     <PriceList />
 
     <Devices />
