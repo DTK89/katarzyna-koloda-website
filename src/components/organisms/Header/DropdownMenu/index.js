@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // import { links, social } from 'routes';
-import { Dropdown, MenuContainer, MenuLink, SocialContainer, SocialLink } from './DropdownElements';
+import { Dropdown, MenuContainer, MenuLink } from './DropdownElements';
 
 const DropdownMenu = ({
   routeLinks,
-  socialLinks,
+  // socialLinks,
   isOpen,
   toggleDropdown,
   linksRef,
@@ -23,7 +23,7 @@ const DropdownMenu = ({
               duration={500}
               spy
               // exact
-              offset={-50} // -100 withowuth sked option
+              offset={-100}
               onClick={toggleDropdown}
               activeclass="active"
             >
@@ -32,7 +32,7 @@ const DropdownMenu = ({
           </li>
         );
       })}
-      <SocialContainer>
+      {/* <SocialContainer>
         {socialLinks.map((socialIcon) => {
           const { id, url, icon } = socialIcon;
           return (
@@ -41,14 +41,14 @@ const DropdownMenu = ({
             </li>
           );
         })}
-      </SocialContainer>
+      </SocialContainer> */}
     </MenuContainer>
   </Dropdown>
 );
 
 DropdownMenu.propTypes = {
   routeLinks: PropTypes.arrayOf(PropTypes.object).isRequired,
-  socialLinks: PropTypes.arrayOf(PropTypes.object).isRequired,
+  // socialLinks: PropTypes.arrayOf(PropTypes.object).isRequired,
   isOpen: PropTypes.bool,
   toggleDropdown: PropTypes.func.isRequired,
   linksRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) }).isRequired,

@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+  
+/* <link rel="preconnect" href="https://fonts.gstatic.com"> */
+/* <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> */
 
 *,
 *::before,
@@ -11,8 +17,6 @@
 }
 
 :root {
-  --clr-logo: #048dca;
-
   /* dark shades of primary color*/
   --clr-primary-1: hsl(207, 77%, 27%);
   --clr-primary-2: hsl(207, 63%, 48%);
@@ -58,7 +62,7 @@ html {
   font-size: 62.5%;
   border: 0;
 }
-
+  
 body {
   font-size: 1.6rem;
   font-family: 'Montserrat', sans-serif;
@@ -125,3 +129,7 @@ p {
     line-height: 1;
   }
 }
+
+`;
+
+export default GlobalStyle;

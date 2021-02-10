@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { animateScroll as scroll } from 'react-scroll';
 import { ReactComponent as LogoIcon } from 'assets/logo/logo.svg';
 import { FaArrowCircleDown } from 'react-icons/fa';
-// import { links, social } from 'routes';
 import {
   Nav,
   NavContainer,
@@ -11,11 +10,11 @@ import {
   NavMobileButton,
   NavMenu,
   NavMenuLink,
-  NavSocial,
-  NavSocialLink,
+  // NavSocial,
+  // NavSocialLink,
 } from './NavbarElements';
 
-const NavBar = ({ routeLinks, socialLinks, isOpen, toggleDropdown }) => {
+const NavBar = ({ routeLinks, isOpen, toggleDropdown }) => {
   const scrollHome = () => {
     scroll.scrollToTop();
   };
@@ -36,8 +35,7 @@ const NavBar = ({ routeLinks, socialLinks, isOpen, toggleDropdown }) => {
                   duration={500}
                   spy
                   smooth
-                  // exact
-                  offset={-70} // -100 withowuth sked option
+                  offset={-100}
                   onClick={toggleDropdown}
                   activeclass="active"
                 >
@@ -47,7 +45,7 @@ const NavBar = ({ routeLinks, socialLinks, isOpen, toggleDropdown }) => {
             );
           })}
         </NavMenu>
-        <NavSocial>
+        {/* <NavSocial>
           {socialLinks.map((socialIcon) => {
             const { id, url, icon } = socialIcon;
             return (
@@ -56,7 +54,7 @@ const NavBar = ({ routeLinks, socialLinks, isOpen, toggleDropdown }) => {
               </li>
             );
           })}
-        </NavSocial>
+        </NavSocial> */}
         <NavMobileButton isOpen={isOpen} onClick={toggleDropdown}>
           <FaArrowCircleDown />
         </NavMobileButton>
@@ -66,7 +64,7 @@ const NavBar = ({ routeLinks, socialLinks, isOpen, toggleDropdown }) => {
 };
 NavBar.propTypes = {
   routeLinks: PropTypes.arrayOf(PropTypes.object).isRequired,
-  socialLinks: PropTypes.arrayOf(PropTypes.object).isRequired,
+  // socialLinks: PropTypes.arrayOf(PropTypes.object).isRequired,
   isOpen: PropTypes.bool,
   toggleDropdown: PropTypes.func.isRequired,
 };

@@ -1,14 +1,14 @@
 import React from 'react';
-import './Root.css';
-import Header from 'components/Header';
-import HomePage from 'views/HomePage';
+import GlobalTemplate from 'templates/GlobalTemplate';
+// import './Root.css';
+import HomePage from 'templates/HomePageTemplate';
 
 function Root() {
   return (
     <>
-      <Header />
-      <HomePage />
-      {/* <Footer /> */}
+      <GlobalTemplate>
+        <HomePage />
+      </GlobalTemplate>
     </>
   );
 }
