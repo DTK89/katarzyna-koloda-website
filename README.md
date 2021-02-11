@@ -1,29 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Official website for Beauty Parlor
 
-## Available Scripts
+Project of website for Beauty Parlor
 
-In the project directory, you can run:
+## Project Status
 
-### `npm start`
+:heavy_plus_sign: still under development.
+:plus_sign: planned build of blog section for website
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### To run it locally
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Get the repo
 
-### `npm test`
+```
+git clone https://github.com/DTK89/katarzyna-koloda-website.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Then run npm scripts at root folder
 
-### `npm run build`
+```
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+- [React](https://reactjs.org/)
+- [styled-components](https://styled-components.com/)
+- [Node.js](https://nodejs.org/en/)
+- [React Scroll](https://www.npmjs.com/package/react-scroll)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [@react-google-maps/api](https://www.npmjs.com/package/@react-google-maps/api)
