@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import NavigationTemplate from 'templates/NavigationTemplate';
-import Slides from 'components/organisms/Slides';
-import PriceList from 'components/organisms/PriceList';
-import Devices from 'components/organisms/Devices';
-import About from 'components/organisms/About';
-import Contact from 'components/organisms/Contact';
+import SlidesSection from 'templates/sectionTemplate/SlidesTemplate';
+import PriceListSection from 'templates/sectionTemplate/PriceListTemplate';
+import TreatmentSection from 'templates/sectionTemplate/TreatmentSection';
+import AboutSection from 'templates/sectionTemplate/AboutTemplate';
+import ContactSection from 'templates/sectionTemplate/ContactTemplate';
 
 const PageWrapper = styled.div`
   margin-top: 100px;
@@ -19,11 +19,11 @@ const PageWrapper = styled.div`
 const HomePage = () => (
   <NavigationTemplate>
     <PageWrapper>
-      <Slides />
-      <PriceList />
-      <Devices />
-      <About />
-      <Contact />
+      <SlidesSection />
+      <PriceListSection />
+      <TreatmentSection />
+      <AboutSection />
+      <ContactSection />
     </PageWrapper>
   </NavigationTemplate>
 );

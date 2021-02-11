@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { links, social } from 'routes';
-import NavBar from './Navbar';
-import DropdownMenu from './DropdownMenu';
+import NavBar from '../../molecules/Navbar';
+import DropdownMenu from '../../molecules/DropdownMenu';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -87,47 +87,67 @@ h5 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
 }
+
 h1 {
   font-size: 3rem;
 }
+
 h2 {
   font-size: 2rem;
 }
+
 h3 {
   font-size: 1.25rem;
 }
+
 h4 {
   font-size: 0.875rem;
 }
+
 h5 {
   font-size: 0.7rem;
 }
+
 p {
+  font-size: 1.5rem;
+  font-weight:200;
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
-@media screen and (min-width: 900px) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 1.75rem;
-  }
-  h4 {
-    font-size: 1rem;
-  }
+@media screen and (min-width: 992px) {
   body {
     font-size: 1rem;
   }
+
   h1,
   h2,
   h3,
   h4 {
     line-height: 1;
   }
+
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 1rem;
+  }
+
+  p{
+    font-size: 2rem;
+  }
+
+
+  
 }
 
 `;
